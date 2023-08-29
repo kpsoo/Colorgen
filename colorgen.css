@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Noto+Sans:wght@500&family=Odibee+Sans&family=Playfair+Display&family=Roboto:ital,wght@1,300&family=Spline+Sans+Mono&family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+    padding:0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    transition: 2s;
+}
+
+
+ .main {
+    width: 100%;
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.container {
+    
+    width:38rem;
+    height: 14rem;
+    background-color: white;
+    padding-top:2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+   
+   
+}
+
+button { 
+    font-size: 30px;
+    display: block;
+    width: 50%;
+    background-color: black;
+    color:#ffff;
+    font-weight: 700px;
+    border: none;
+    border-radius: 10px;
+    margin-top:2%;
+
+}
